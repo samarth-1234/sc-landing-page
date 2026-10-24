@@ -28,5 +28,37 @@
                 </a>
             </div>
         </nav>
+
+        <header class="hero">
+            <div class="badge">
+                Welcome to SnapClass
+            </div>
+
+            <h1>AI Powered <br> Attendance <span>System</span></h1>
+
+            <p>Revolutionizing the classroom with next-gen computer vision and voice biometrics. Trusted by educators for speed, accuracy, and security.</p>
+
+            <div class="hero-actions">
+
+                <a href="https://snapclass-automation.streamlit.app/" class="btn-cta">
+                    Start AI Attendance
+                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="20px" width="20px" xmlns="http://www.w3.org/2000/svg"><path d="M18.25 15.5a.75.75 0 0 1-.75-.75V7.56L7.28 17.78a.749.749 0 0 1-1.275-.326.749.749 0 0 1 .215-.734L16.44 6.5H9.25a.75.75 0 0 1 0-1.5h9a.75.75 0 0 1 .75.75v9a.75.75 0 0 1-.75.75Z"></path></svg>
+                </a>
+
+                <a href="journey" class="link-action"> Explore Journey</a>
+            </div>
+
+            <div class="floating-card card-left">
+                <div class="card-img">
+                    <img src="{{ url_for('static', filename='img/demo/snap-teacher-flow-7-photo-attendance.png') }}" alt="landing img 1">
+                </div>
+            </div>
+
+            <div class="floating-card card-right">
+                <div class="card-img">
+                    <img src="{{ url_for('static', filename='img/demo/snap-landing.png') }}" alt="landing img 2">
+                </div>
+            </div>
+        </header>
     </body>
 </html>
